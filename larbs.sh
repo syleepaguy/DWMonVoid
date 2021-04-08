@@ -14,8 +14,8 @@ while getopts ":a:r:b:p:h" o; do case "${o}" in
 esac done
 
 [ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
-[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/syleepaguy/DWMonVoid/main/progs.csv"
-[ -z "$repobranch" ] && repobranch="main"
+[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/syleepaguy/DWMonVoid/master/progs.csv"
+[ -z "$repobranch" ] && repobranch="master"
 
 ### FUNCTIONS ###
 
